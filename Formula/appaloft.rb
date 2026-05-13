@@ -7,20 +7,20 @@ class Appaloft < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/appaloft/appaloft/releases/download/v0.12.1/appaloft-v0.12.1-darwin-arm64.tar.gz"
-      sha256 "83e312e4e2e33d342abf4b3f213e43aa0150fac774d660ab3b3e760daa09f764"
+      sha256 "86bf5adb9bba5bb8d0dca1afdc1f6cb54da12eb82667c9b8c2e02bbfa777a1aa"
     else
       url "https://github.com/appaloft/appaloft/releases/download/v0.12.1/appaloft-v0.12.1-darwin-x64.tar.gz"
-      sha256 "c492257ccc7c1da4daa6019054c76878cb01edb980e17f23bdb83e82a9a642c1"
+      sha256 "63bbdb1d662f0dac89b189ec3f855180bc08cd042af11d459d53c997a47a302a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/appaloft/appaloft/releases/download/v0.12.1/appaloft-v0.12.1-linux-arm64-gnu.tar.gz"
-      sha256 "ad14b350a2083af571dcab62e27aed03f268921db4649dd4a67720b9827ed0a5"
+      sha256 "1aec8ee9e7112e6da2a28836ac9d70d4e675e8e240257de9962bfeea92a5f5c4"
     else
       url "https://github.com/appaloft/appaloft/releases/download/v0.12.1/appaloft-v0.12.1-linux-x64-gnu.tar.gz"
-      sha256 "eb242206b74fcbfb93537e6f2375f20329517c7f7a5f9ec42c8c9dd722193bf8"
+      sha256 "74fc76111a1fd89f2df116ebe3b2bb8a40d6642282e824ad906f21b728e5c982"
     end
   end
 
