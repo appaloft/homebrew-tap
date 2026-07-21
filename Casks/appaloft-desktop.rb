@@ -1,14 +1,14 @@
 cask "appaloft-desktop" do
-  version "1.0.4"
+  version "1.1.0"
 
   on_arm do
-    sha256 "1fa5f346e9e4192446dadcac941bc3192fae8140f8ccc5f8745bb043a40d0be9"
-    url "https://github.com/appaloft/appaloft/releases/download/v1.0.4/appaloft-desktop-v1.0.4-darwin-arm64.dmg"
+    sha256 "5bd242c420d48dcebc95cdc1d1a437481db377a03aa099bb221344a99a44eb1f"
+    url "https://github.com/appaloft/appaloft/releases/download/v1.1.0/appaloft-desktop-v1.1.0-darwin-arm64.dmg"
   end
 
   on_intel do
-    sha256 "d5095baf241a7a769b97eeb65e03164e27599e153c13d38515e284d0eb475dc5"
-    url "https://github.com/appaloft/appaloft/releases/download/v1.0.4/appaloft-desktop-v1.0.4-darwin-x64.dmg"
+    sha256 "c93d7fc1ed749e6584116cea746d0e0f30534043ea869ebec5fe21946802d9d0"
+    url "https://github.com/appaloft/appaloft/releases/download/v1.1.0/appaloft-desktop-v1.1.0-darwin-x64.dmg"
   end
 
   name "Appaloft"
