@@ -2,25 +2,25 @@ class Appaloft < Formula
   desc "Backend-first local-to-cloud deployment platform"
   homepage "https://github.com/appaloft/appaloft"
   license "MIT"
-  version "1.2.0"
+  version "1.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/appaloft/appaloft/releases/download/v1.2.0/appaloft-v1.2.0-darwin-arm64.tar.gz"
-      sha256 "b172fb493aa39407e4643bd2762898a9a50c644b7caf06d28cec81421e59bbec"
+      url "https://github.com/appaloft/appaloft/releases/download/v1.3.1/appaloft-v1.3.1-darwin-arm64.tar.gz"
+      sha256 "7c67b2ff764d9df9396effb989d6ba28b3f1c4c59d2860570a6a10c59eb0686e"
     else
-      url "https://github.com/appaloft/appaloft/releases/download/v1.2.0/appaloft-v1.2.0-darwin-x64.tar.gz"
-      sha256 "054b479460616946ce72e9d84e7b0ec0ea02caa42909b5f399b57803baeba5e2"
+      url "https://github.com/appaloft/appaloft/releases/download/v1.3.1/appaloft-v1.3.1-darwin-x64.tar.gz"
+      sha256 "babbb56fa7c7c6738de218733e4e28bcc7a5ab883dbcff5eff5f29786aa109cd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/appaloft/appaloft/releases/download/v1.2.0/appaloft-v1.2.0-linux-arm64-gnu.tar.gz"
-      sha256 "a4e67ff44df8829c87b21776e4f436546e0bf8a15d5f8e9eac70c7a979501b45"
+      url "https://github.com/appaloft/appaloft/releases/download/v1.3.1/appaloft-v1.3.1-linux-arm64-gnu.tar.gz"
+      sha256 "4e0d3b1c0cd5b327704a58973b60425b458aff6b2d1ecf7f7956c77e6c8bba15"
     else
-      url "https://github.com/appaloft/appaloft/releases/download/v1.2.0/appaloft-v1.2.0-linux-x64-gnu.tar.gz"
-      sha256 "1fc2eca4349012a2087266ba928cdb638c70bbfe88e99c1b1ad41581727db0e2"
+      url "https://github.com/appaloft/appaloft/releases/download/v1.3.1/appaloft-v1.3.1-linux-x64-gnu.tar.gz"
+      sha256 "8ad7e238ce0ab68a9e5edd33fb408c678b2d067ea0b9920c216a0e02820295b9"
     end
   end
 
